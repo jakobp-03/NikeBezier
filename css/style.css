@@ -11,7 +11,6 @@ body {
      position: relative;
      top: -11.5rem;
      left: 10.55rem;
-     display: none;
 }
  .nike2{
      background-image: url(../image/nike.svg);
@@ -96,7 +95,7 @@ body {
  .cntrl{
      float: right;
      position: relative;
-     margin-top: 30px;
+     margin-top: 40px;
      right: 430px;
 }
  .cntrl2{
@@ -215,4 +214,27 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #608fdb; 
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(39, 148, 245, 0.41);
+}
+
+.navbarli {
+  float: left;
+  padding-left: 100px;
+}
+
+.navbarlia {
+  display: block;
+  color: ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
