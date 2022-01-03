@@ -223,12 +223,13 @@ body {
   top: 3px;
   padding: 0;
   overflow: hidden;
+  text-align: center;
   background-color: rgba(39, 148, 245, 0.41);
 }
 
 .navbarli {
   float: left;
-  padding-left: 100px;
+  padding-left: 20%;
 }
 
 .navbarlia {
