@@ -1,0 +1,218 @@
+body {
+     background-color:#99d6ff;
+     font-family: 'Readex Pro', sans-serif;
+}
+ .nike1{
+     background-image: url(../image/nike.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 8.375rem;
+     height: 5.625rem;
+     position: relative;
+     top: -11.5rem;
+     left: 10.55rem;
+     display: none;
+}
+ .nike2{
+     background-image: url(../image/nike.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 8.375rem;
+     height: 5.625rem;
+     margin: auto;
+     position: relative;
+     top: -11.5rem;
+     right: 1rem;
+     display: none;
+     z-index: 2;
+}
+ .nike3{
+     height: 1.25rem;
+     width: 2.813rem;
+     display: none;
+     position: relative;
+     bottom: 470px;
+     left: -40px;
+}
+ #myCanvas {
+     width: 12rem;
+}
+ .tshirt{
+     background-image: url(../image/tshirt.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 503px;
+     height: 600px;
+     border-radius: 5px;
+     margin: auto;
+     margin-left: 30px;
+}
+ .shoe{
+     background-image: url(../image/shoe.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 563px;
+     height: 750px;
+     border-radius: 5px;
+     margin: auto;
+}
+ .part{
+    /*background-image: url(../image/pt2.png);
+     to je tisto*/
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin: auto;
+     width: 930px;
+    ;
+     height: 750px;
+     background-color: white;
+     color: black;
+     padding: 5px;
+     border: 1px solid #062a63;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     padding-top: 20px;
+    /*float: left;
+     to je tudi tisto*/
+}
+ .part2{
+     background-image: url(../image/pt1.png);
+    /* to je tisto*/
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin: auto;
+     width: 930px;
+    ;
+     height: 900px;
+     background-color: white;
+     color: black;
+     padding: 5px;
+     border: 1px solid black;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     padding-top: 20px;
+     float: right;
+    /*to je tudi tisto*/
+}
+ .cntrl{
+     float: right;
+     position: relative;
+     margin-top: 30px;
+     right: 430px;
+}
+ .cntrl2{
+     float: right;
+     position: relative;
+     margin-top: -380px;
+     right: 430px;
+}
+ .cntrl2 > button{
+     padding: 20px;
+     margin-bottom: 150px;
+     border-radius: 5px;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+ .cntrl > button{
+     padding: 20px;
+     margin-bottom: 150px;
+     border-radius: 5px;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+ button{
+     padding: 20px;
+     margin-bottom: 150px;
+     border-radius: 5px;
+     font-family: 'Readex Pro', sans-serif;
+     border: 2px solid #001f33;
+}
+ canvas{
+     margin-top: 250px;
+     margin-left: 180px;
+     width: 230px;
+}
+ .shoe2{
+     background-image: url(../image/shoe.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 470px;
+     height: 750px;
+     border-radius: 5px;
+     margin: auto;
+     margin-left: 25px;
+     margin-top: 100px;
+}
+ a{
+     text-decoration: none;
+     color: #092147;
+}
+ .nike4{
+     background-image: url(../image/nike.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 120px;
+     height: 90px;
+     position: relative;
+     top: -230px;
+     left: 150px;
+     display: none;
+     transform: scaleX(-1);
+}
+ .nike5{
+     background-image: url(../image/nike.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 120px;
+     height: 90px;
+     margin: auto;
+     position: relative;
+     top: -230px;
+     right: 25px;
+     display: none;
+     z-index: 2;
+     transform: scaleX(-1);
+}
+ .nike6{
+     height: 20px;
+     width: 45px;
+     display: none;
+     transform: scaleX(-1);
+     position: relative;
+     left: 420px;
+     bottom: 510px;
+}
+ #myCanvas2{
+     width: 160px;
+}
+ button:hover{
+     background-color: #99d6ff;
+     transition: 0.5s;
+}
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     width: 900px;
+     margin: auto;
+}
+ .flex-container > .part {
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ddd; 
+  border-radius: 15px;
+  border: 1px solid #689df2
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7e96bd; 
+  border-radius: 15px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #608fdb; 
+}
