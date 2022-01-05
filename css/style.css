@@ -30,11 +30,11 @@ body {
      width: 2.813rem;
      display: none;
      position: relative;
-     bottom: 470px;
-     left: -40px;
+     bottom: 500px;
+     left: -30px;
 }
  #myCanvas {
-     width: 12rem;
+     width: 18rem;
 }
  .tshirt{
      background-image: url(../image/tshirt.jpg);
@@ -179,10 +179,10 @@ body {
      transform: scaleX(-1);
      position: relative;
      left: 420px;
-     bottom: 510px;
+     bottom: 540px;
 }
  #myCanvas2{
-     width: 160px;
+     width: 260px;
 }
  button:hover{
      background-color: #99d6ff;
