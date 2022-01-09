@@ -10,18 +10,14 @@
       <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="sweetalert2.all.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
    </head>
     <section id="home"></section>
    <body>
      <h1 style="text-align: center;"><a href="#" onclick="myFunction()">Nike designer</a></h1>
-      <ul class="navbar">
-   <li class="navbarli" style="padding-left: 20%;"><a  class="navbarlia"  href="#home"><div class="nike33"></div></a></li>       
-  <li class="navbarli" style="padding-left: 20%;"><a  class="navbarlia"  href="#tee">T-shirt</a></li>
-  <li class="navbarli" style="padding-left: 20%;"><a  class="navbarlia" href="#shoe">Shoes</a></li>
-</ul> 
       <div class="flex-container" >
           <section id="tee"></section>
-         <div class="part" style="background-image: url(image/pt2.png)">
+         <div class="animate__animated animate__slideInLeft"id="part" style="background-image: url(image/pt2.png)">
                 <div class="tshirt">
                <h3 style="position: relative; left: 380px; text-align: center">Nike Sportswear</h3>
                <h5 style="position: relative; left: 347px; text-align: center; color:  #78a1e3; bottom: 22px">Men's T-Shirt</h5>
@@ -39,7 +35,7 @@
             </div>
             <div class="cntrl"><button id="gumb1">PNG</button><button id="gumb2">SVG </button><button id="gumb3">BEZIER</button></div>
          </div>
-         <div class="part" style="background-image: url(image/pt1.png)">
+         <div class="animate__animated animate__slideInRight" id="part" style="background-image: url(image/pt1.png)">
              <section id="shoe"></section>
             <div class="shoe2">
                 

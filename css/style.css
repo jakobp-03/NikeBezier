@@ -55,7 +55,7 @@ body {
      border-radius: 5px;
      margin: auto;
 }
- .part{
+ #part{
     /*background-image: url(../image/pt2.png);
      to je tisto*/
      background-size: contain;
@@ -194,7 +194,8 @@ body {
      max-width: 1900px;
      margin: auto;
 }
- .flex-container > .part {
+ .flex-container > #part {
+     min-width: none;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -234,7 +235,6 @@ body {
 
 .navbarlia {
   display: block;
-  color: ;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -257,3 +257,4 @@ body {
      margin: auto;
      border: none;
 }
+
