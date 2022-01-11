@@ -1,86 +1,181 @@
 <!DOCTYPE html>
 <html lang="sl">
-   <head>
-      <title>Nike</title>
-      <meta charset="UTF-8" />
-      <link rel="icon" type="image/png" href="image/favicon.ico"/>
-      <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-      <script src="sweetalert2.all.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-   </head>
-    <section id="home"></section>
-   <body>
-     <h1 style="text-align: center;"><a href="#" onclick="myFunction()">Nike designer</a></h1>
-      <div class="flex-container" >
-          <section id="tee"></section>
-         <div class="animate__animated animate__slideInLeft"id="part" style="background-image: url(image/pt2.png)">
-                <div class="tshirt">
-               <h3 style="position: relative; left: 380px; text-align: center">Nike Sportswear</h3>
-               <h5 style="position: relative; left: 347px; text-align: center; color:  #78a1e3; bottom: 22px">Men's T-Shirt</h5>
-               <p style="position: relative; left: 550px; width: 200px; line-height: 1.7; font-size: 17px;">Easiest choice you'll make all day: The Nike Sportswear T-Shirt drapes you in cotton comfort while bringing a Swoosh touch to your look.</p>
-               <ul style="position: relative; left: 530px; width: 200px; line-height: 3;  font-size: 17px;">
-                  <li>Colour Shown: White</li>
-                  <li> DQ3948-416</li>
-               </ul>
-               <div class="nike1" id="div1" style="display: none"></div>
-               <div class="nike2" id="div2" style="display: none"></div>
-               <div class="nike3" id="div3" style="display: none">
-                  <canvas id="myCanvas" width="400" height="200" > 
-                  </canvas>
-               </div>
-            </div>
-            <div class="cntrl"><button id="gumb1">PNG</button><button id="gumb2">SVG </button><button id="gumb3">BEZIER</button></div>
-         </div>
-         <div class="animate__animated animate__slideInRight" id="part" style="background-image: url(image/pt1.png)">
-             <section id="shoe"></section>
-            <div class="shoe2">
-                
-               <h3 style="position: relative; left: 380px; text-align: center; bottom: 150px">Nike On-Court</h3>
-               <h5 style="position: relative; left: 355px; text-align: center; color:  #78a1e3; bottom: 170px">Men's Shoes</h5>
-               <p style="position: relative; left: 550px; width: 200px; line-height: 1.7; font-size: 17px; bottom: 170px">Taking inspiration from the archives, the Nike On-Court Men's Shoe brings retro tennis style in a modern package for everyday comfort.</p>
-               <ul style="position: relative; left: 530px; width: 200px; line-height: 3;  font-size: 17px; bottom: 130px">
-                  <li>Colour Shown: White</li>
-                  <li> CT2302-100</li>
-               </ul>
-               <div class="nike4" id="div4" style="display: none"></div>
-               <div class="nike5" id="div5" style="display: none"></div>
-               <div class="nike6" id="div6" style="display: none">
-                  <canvas id="myCanvas2" width="400" height="200" > 
-                  </canvas>
-               </div>
-            </div>
-            <div class="cntrl2"><button id="gumb4">PNG</button><button id="gumb5">SVG </button><button id="gumb6">BEZIER</button></div>
-         </div>
+  <head>
+    <title>Nike</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="image/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <section id="home"></section>
+  <body>
+    <h1 style="text-align: center">
+      <a href="#" onclick="myFunction()">Nike designer</a>
+    </h1>
+    <div class="flex-container">
+      <section id="tee"></section>
+      <div
+        class="animate__animated animate__slideInLeft"
+        id="part"
+        style="background-image: url(image/pt2.png)"
+      >
+        <div class="tshirt">
+          <h3 style="position: relative; left: 380px; text-align: center">
+            Nike Sportswear
+          </h3>
+          <h5
+            style="
+              position: relative;
+              left: 347px;
+              text-align: center;
+              color: #78a1e3;
+              bottom: 22px;
+            "
+          >
+            Men's T-Shirt
+          </h5>
+          <p
+            style="
+              position: relative;
+              left: 550px;
+              width: 200px;
+              line-height: 1.7;
+              font-size: 17px;
+            "
+          >
+            Easiest choice you'll make all day: The Nike Sportswear T-Shirt
+            drapes you in cotton comfort while bringing a Swoosh touch to your
+            look.
+          </p>
+          <ul
+            style="
+              position: relative;
+              left: 530px;
+              width: 200px;
+              line-height: 3;
+              font-size: 17px;
+            "
+          >
+            <li>Colour Shown: White</li>
+            <li>DQ3948-416</li>
+          </ul>
+          <div class="nike1" id="div1" style="display: none"></div>
+          <div class="nike2" id="div2" style="display: none"></div>
+          <div class="nike3" id="div3" style="display: none">
+            <canvas id="myCanvas" width="400" height="200"> </canvas>
+          </div>
+        </div>
+        <div class="cntrl">
+          <button id="gumb1">PNG</button><button id="gumb2">SVG</button
+          ><button id="gumb3">BEZIER</button>
+        </div>
       </div>
-       <footer style="text-align: center; color: grey; opacity: 50%; font-size: 8px;">This website was made for a School project by Jakob Pavlovic. <br>
-        <a href = "mailto: jakobp03@gmail.com">Contact me</a></footer>
-      <script>
-         var c = document.getElementById("myCanvas");
-         	var ctx = c.getContext("2d");
-         	ctx.beginPath();
-             ctx.moveTo(48,100);
-         	ctx.bezierCurveTo(4, 154, 21, 188, 198,97);
-         	ctx.bezierCurveTo(16,154,44,122,53,96);
-         	ctx.closePath();
-         	ctx.fillStyle = "black";
-         	ctx.fill();
-         	ctx.stroke();
-         var f = document.getElementById("myCanvas2");
-         	var ftx = f.getContext("2d");
-         	ftx.beginPath();
-             ftx.moveTo(48,100);
-         	ftx.bezierCurveTo(4, 154, 21, 188, 198,97);
-         	ftx.bezierCurveTo(16,154,44,122,53,96);
-         	ftx.closePath();
-         	ftx.fillStyle = "black";
-         	ftx.fill();
-         	ftx.stroke();
-      </script>
-      <script src="js/hide.js" type="text/javascript"></script>
-      <script src="js/alert.js" type="text/javascript"></script> 
-   </body>
+      <div
+        class="animate__animated animate__slideInRight"
+        id="part"
+        style="background-image: url(image/pt1.png)"
+      >
+        <section id="shoe"></section>
+        <div class="shoe2">
+          <h3
+            style="
+              position: relative;
+              left: 380px;
+              text-align: center;
+              bottom: 150px;
+            "
+          >
+            Nike On-Court
+          </h3>
+          <h5
+            style="
+              position: relative;
+              left: 355px;
+              text-align: center;
+              color: #78a1e3;
+              bottom: 170px;
+            "
+          >
+            Men's Shoes
+          </h5>
+          <p
+            style="
+              position: relative;
+              left: 550px;
+              width: 200px;
+              line-height: 1.7;
+              font-size: 17px;
+              bottom: 170px;
+            "
+          >
+            Taking inspiration from the archives, the Nike On-Court Men's Shoe
+            brings retro tennis style in a modern package for everyday comfort.
+          </p>
+          <ul
+            style="
+              position: relative;
+              left: 530px;
+              width: 200px;
+              line-height: 3;
+              font-size: 17px;
+              bottom: 130px;
+            "
+          >
+            <li>Colour Shown: White</li>
+            <li>CT2302-100</li>
+          </ul>
+          <div class="nike4" id="div4" style="display: none"></div>
+          <div class="nike5" id="div5" style="display: none"></div>
+          <div class="nike6" id="div6" style="display: none">
+            <canvas id="myCanvas2" width="400" height="200"> </canvas>
+          </div>
+        </div>
+        <div class="cntrl2">
+          <button id="gumb4">PNG</button><button id="gumb5">SVG</button
+          ><button id="gumb6">BEZIER</button>
+        </div>
+      </div>
+    </div>
+    <footer
+      style="text-align: center; color: grey; opacity: 50%; font-size: 8px"
+    >
+      This website was made for a School project by Jakob Pavlovic. <br />
+      <a href="mailto: jakobp03@gmail.com">Contact me</a>
+    </footer>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.moveTo(48, 100);
+      ctx.bezierCurveTo(4, 154, 21, 188, 198, 97);
+      ctx.bezierCurveTo(16, 154, 44, 122, 53, 96);
+      ctx.closePath();
+      ctx.fillStyle = "black";
+      ctx.fill();
+      ctx.stroke();
+      var f = document.getElementById("myCanvas2");
+      var ftx = f.getContext("2d");
+      ftx.beginPath();
+      ftx.moveTo(48, 100);
+      ftx.bezierCurveTo(4, 154, 21, 188, 198, 97);
+      ftx.bezierCurveTo(16, 154, 44, 122, 53, 96);
+      ftx.closePath();
+      ftx.fillStyle = "black";
+      ftx.fill();
+      ftx.stroke();
+    </script>
+    <script src="js/hide.js" type="text/javascript"></script>
+    <script src="js/alert.js" type="text/javascript"></script>
+  </body>
 </html>
