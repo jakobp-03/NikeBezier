@@ -1,10 +1,16 @@
 :root {
      background-color: rgb(153, 214, 255);
    }
+   html{
+        transition: 2s;
+   }
 body {
      font-family: 'Readex Pro', sans-serif;
      background-size: cover;
      background-repeat: no-repeat;
+     transition: 2s;
+}
+h5{
      transition: 2s;
 }
  .nike1{
@@ -66,13 +72,29 @@ body {
      margin: auto;
      width: 930px;
      height: 750px;
-     background-color: rgba(184, 227, 255, 0.6);
+     background-color: rgba(240, 229, 228, 0.6);
      color: black;
      padding: 5px;
      border: 1px solid #062a63;
      margin-bottom: 10px;
      border-radius: 3px;
      padding-top: 20px;
+     transition: 2s;
+}
+#part2{
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin: auto;
+     width: 930px;
+     height: 750px;
+     background-color: rgba(240, 229, 228, 0.6);
+     color: black;
+     padding: 5px;
+     border: 1px solid #062a63;
+     margin-bottom: 10px;
+     border-radius: 3px;
+     padding-top: 20px;
+     transition: 2s;
 }
  .cntrl{
      float: right;
@@ -179,6 +201,9 @@ body {
      margin: auto;
 }
  .flex-container > #part {
+     min-width: none;
+}
+.flex-container > #part2 {
      min-width: none;
 }
 /* width */
