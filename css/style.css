@@ -1,6 +1,10 @@
+:root {
+     background-color: #99d6ff;
+   }
 body {
-     background-color:#99d6ff;
      font-family: 'Readex Pro', sans-serif;
+     background-size: cover;
+     background-repeat: no-repeat;
 }
  .nike1{
      background-image: url(../image/nike.png);
@@ -61,7 +65,7 @@ body {
      margin: auto;
      width: 930px;
      height: 750px;
-     background-color: white;
+     background-color: transparent;
      color: black;
      padding: 5px;
      border: 1px solid #062a63;
