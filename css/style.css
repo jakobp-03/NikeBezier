@@ -13,8 +13,8 @@ body {
 h5{
      transition: 2s;
 }
- .nike1{
-     background-image: url(../image/nike.png);
+ #nike1{
+     background-image: url(../image/nike1.png);
      background-size: contain;
      background-repeat: no-repeat;
      width: 8.375rem;
@@ -23,7 +23,7 @@ h5{
      top: -11.5rem;
      left: 10.55rem;
 }
- .nike2{
+ #nike2{
      background-image: url(../image/nike.svg);
      background-size: contain;
      background-repeat: no-repeat;
@@ -36,16 +36,16 @@ h5{
      display: none;
      z-index: 2;
 }
- .nike3{
+ #nike3{
      height: 1.25rem;
      width: 2.813rem;
      display: none;
      position: relative;
-     bottom: 500px;
-     left: -30px;
+     bottom: 485px;
+     left: -20px;
 }
  #myCanvas {
-     width: 18rem;
+     width: 9.5rem;
 }
  .tshirt{
      background-image: url(../image/tshirt.jpg);
@@ -151,7 +151,7 @@ h5{
      color: black;
      transition: 2s;
 }
- .nike4{
+ #nike4{
      background-image: url(../image/nike.png);
      background-size: contain;
      background-repeat: no-repeat;
@@ -161,9 +161,8 @@ h5{
      top: -230px;
      left: 150px;
      display: none;
-     transform: scaleX(-1);
 }
- .nike5{
+ #nike5{
      background-image: url(../image/nike.svg);
      background-size: contain;
      background-repeat: no-repeat;
@@ -177,17 +176,17 @@ h5{
      z-index: 2;
      transform: scaleX(-1);
 }
- .nike6{
+ #nike6{
      height: 20px;
      width: 45px;
      display: none;
      transform: scaleX(-1);
      position: relative;
-     left: 420px;
-     bottom: 540px;
+     left: 410px;
+     bottom: 520px;
 }
  #myCanvas2{
-     width: 260px;
+     width: 130px;
 }
  button:hover{
      background-color: #99d6ff;
@@ -224,30 +223,6 @@ h5{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #608fdb; 
-}
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  margin-bottom: 40px;
-  position: sticky;
-  top: 3px;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgba(39, 148, 245, 0.41);
-}
-
-.navbarli {
-  float: left;
-  padding-left: 20%;
-}
-
-.navbarlia {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
 }
  .nike22{
      background-image: url(../image/nike.png);

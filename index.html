@@ -79,10 +79,10 @@
             <li>Colour Shown: White</li>
             <li>DQ3948-416</li>
           </ul>
-          <div class="nike1" id="div1" style="display: none"></div>
-          <div class="nike2" id="div2" style="display: none"></div>
-          <div class="nike3" id="div3" style="display: none">
-            <canvas id="myCanvas" width="400" height="200"> </canvas>
+          <div class="nike1" id="nike1" style="display: none"></div>
+          <div class="nike2" id="nike2" style="display: none"></div>
+          <div class="nike3" id="nike3" style="display: none">
+            <canvas id="myCanvas" width="400" height="400"> </canvas>
           </div>
         </div>
         <div class="cntrl">
@@ -144,10 +144,10 @@
             <li>Colour Shown: White</li>
             <li>CT2302-100</li>
           </ul>
-          <div class="nike4" id="div4" style="display: none"></div>
-          <div class="nike5" id="div5" style="display: none"></div>
-          <div class="nike6" id="div6" style="display: none">
-            <canvas id="myCanvas2" width="400" height="200"> </canvas>
+          <div class="nike4" id="nike4" style="display: none"></div>
+          <div class="nike5" id="nike5" style="display: none"></div>
+          <div class="nike6" id="nike6" style="display: none">
+            <canvas id="myCanvas2" width="400" height="400"> </canvas>
           </div>
         </div>
         <div class="cntrl2">
@@ -166,9 +166,10 @@
       var c = document.getElementById("myCanvas");
       var ctx = c.getContext("2d");
       ctx.beginPath();
-      ctx.moveTo(48, 100);
-      ctx.bezierCurveTo(4, 154, 21, 188, 198, 97);
-      ctx.bezierCurveTo(16, 154, 44, 122, 53, 96);
+      ctx.moveTo(83, 142);
+      ctx.bezierCurveTo( 19, 193, 19, 274, 92, 259);
+      ctx.bezierCurveTo(183, 231, 258, 182, 362, 144);
+      ctx.bezierCurveTo(111, 215, 45, 241, 82, 143);
       ctx.closePath();
       ctx.fillStyle = "black";
       ctx.fill();
@@ -176,9 +177,10 @@
       var f = document.getElementById("myCanvas2");
       var ftx = f.getContext("2d");
       ftx.beginPath();
-      ftx.moveTo(48, 100);
-      ftx.bezierCurveTo(4, 154, 21, 188, 198, 97);
-      ftx.bezierCurveTo(16, 154, 44, 122, 53, 96);
+     ftx.moveTo(83, 142);
+      ftx.bezierCurveTo( 19, 193, 19, 274, 92, 259);
+      ftx.bezierCurveTo(183, 231, 258, 182, 362, 144);
+      ftx.bezierCurveTo(111, 215, 45, 241, 82, 143);
       ftx.closePath();
       ftx.fillStyle = "black";
       ftx.fill();
